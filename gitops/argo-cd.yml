@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/vishakhasadhwani/DevOps-Practice-Guide.git'
+    repoURL: 'https://github.com/JyothsnaVysyaraju/devops-ai-playbook.git'
     targetRevision: main
-    path: gitops
+    path: projects/Infrastructure/gitops
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: boutique
