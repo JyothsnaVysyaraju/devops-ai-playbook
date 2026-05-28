@@ -25,3 +25,19 @@ configMapGenerator:
 
 generatorOptions:
   disableNameSuffixHash: true
+
+images:
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/auth
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/auth
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/frontend
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/frontend
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/gateway
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/gateway
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/order-service
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/order-service
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/orders
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/orders
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/product-service
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/product-service
+  - name: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/user-service
+    newName: 376432388468.dkr.ecr.us-east-1.amazonaws.com/user-service
