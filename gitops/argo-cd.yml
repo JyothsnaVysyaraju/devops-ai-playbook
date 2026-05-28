@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/JyothsnaVysyaraju/devops-ai-playbook.git'
     targetRevision: main
-    path: projects/Infrastructure/gitops
+    path: gitops
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: boutique
